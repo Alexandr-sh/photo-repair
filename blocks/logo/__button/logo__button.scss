@@ -1,0 +1,18 @@
+.logo__button {
+  margin-left: 28px;
+  border: none;
+  background-color: #25e197;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #000000;
+}
+
+@media all and (max-width: 767px) {
+  .logo__button {
+    margin-left: 16px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

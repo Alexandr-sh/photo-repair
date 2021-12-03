@@ -1,0 +1,20 @@
+.describtion__main-text {
+    margin: 0;
+    color: $secTextColor;
+    font-size: $primSizeDesktop * 1px;
+    line-height: $primLineHeightDesktop * 1px;
+}
+
+@media all and (max-width: 1439px) {
+    .describtion__main-text {
+        font-size: $primSizeTablet * 1px;
+        line-height: $primLineHeightTablet * 1px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .describtion__main-text {
+        font-size: $primSizeMobile * 1px;
+        line-height: $primLineHeightMobile * 1px;
+    }
+}

@@ -1,0 +1,16 @@
+.photos__card_content_card1 {
+  background-image: url("../../../../images/Card1.jpg");
+}
+
+@media all and (max-width: 1439px) {
+  .photos__card_content_card1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .photos__card_content_card1 {
+    height: 142px;
+  }
+}

@@ -1,0 +1,51 @@
+@import "../variables/variables.scss";
+@import "../vendor/fonts.scss";
+
+@import "../blocks/page/page.scss";
+@import "../blocks/page/__section/page__section.scss";
+@import "../blocks/page/__photo-section/page__photo-section.scss";
+
+@import "../blocks/header/header.scss";
+@import "../blocks/header/__heading/header__heading.scss";
+@import "../blocks/header/__subheading/header__subheading.scss";
+
+@import "../blocks/logo/logo.scss";
+@import "../blocks/logo/__text/logo__text.scss";
+@import "../blocks/logo/__button/logo__button.scss";
+@import "../blocks/logo/_place/logo_place_top.scss";
+
+@import "../blocks/request/request.scss";
+@import "../blocks/request/__button-logo/request__button-logo.scss";
+@import "../blocks/request/__button-text/request__button-text.scss";
+@import "../blocks/request/__button/request__button.scss";
+@import "../blocks/request/__input-container/request__input-container.scss";
+@import "../blocks/request/__input/request__input.scss";
+@import "../blocks/request/__subtitle/request__subtitle.scss";
+
+@import "../blocks/photos/photos.scss";
+@import "../blocks/photos/__card/photos__card.scss";
+@import "../blocks/photos/__card/_content/photos__card_content_card1.scss";
+@import "../blocks/photos/__card/_content/photos__card_content_card2.scss";
+@import "../blocks/photos/__card/_content/photos__card_content_card3.scss";
+@import "../blocks/photos/__card/_content/photos__card_content_card4.scss";
+
+@import "../blocks/description/description.scss";
+@import "../blocks/description/__main-text/describtion__main-text.scss";
+@import "../blocks/description/__subtitel/describtion__subtitel.scss";
+
+@import "../blocks/cards/cards.scss";
+@import "../blocks/cards/__card/cards__card.scss";
+@import "../blocks/cards/__card-header-min/cards__card-header-min.scss";
+@import "../blocks/cards/__card-header/cards__card-header.scss";
+@import "../blocks/cards/__price/cards__price.scss";
+@import "../blocks/cards/__text/cards__text.scss";
+
+@import "../blocks/warranty/warranty.scss";
+@import "../blocks/warranty/__header/warranty__header.scss";
+@import "../blocks/warranty/__card/warranty__card.scss";
+@import "../blocks/warranty/__card-header/warranty__card-header.scss";
+@import "../blocks/warranty/__card-text/warranty__card-text.scss";
+@import "../blocks/warranty/__cards/warranty__cards.scss";
+
+@import "../blocks/support/support.scss";
+@import "../blocks/support/__header/support__header.scss";

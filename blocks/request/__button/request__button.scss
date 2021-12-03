@@ -1,0 +1,12 @@
+.request__button {
+  display: flex;
+  min-width: 221px;
+  background: #47474c;
+  border-radius: 0px 8px 8px 0px;
+}
+
+@media all and (max-width: 767px) {
+  .request__button {
+    min-width: 51px;
+  }
+}

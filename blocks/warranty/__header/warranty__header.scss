@@ -1,0 +1,19 @@
+.warranty__header {
+  margin: 0;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@media all and (max-width: 1439px) {
+  .warranty__header {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .warranty__header {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

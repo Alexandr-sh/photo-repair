@@ -1,0 +1,12 @@
+.warranty__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 60px;
+  gap: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .warranty__cards {
+    margin-top: 40px;
+  }
+}

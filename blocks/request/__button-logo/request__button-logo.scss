@@ -1,0 +1,18 @@
+.request__button-logo {
+    margin: 14px 16px 14px 0;
+    background-image: url("../../../images/✌️.png");
+    width: 11px;
+    height: 22px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media all and (max-width: 767px) {
+    .request__button-logo {
+        margin: 20px;
+        width: 11px;
+        height: 10px;
+    }
+    
+}

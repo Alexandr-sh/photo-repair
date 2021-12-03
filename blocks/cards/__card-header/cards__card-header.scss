@@ -1,0 +1,12 @@
+.cards__card-header {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+@media all and (max-width: 767px) {
+  .cards__card-header {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,11 @@
+.request {
+    display: flex;
+    flex-direction: column;
+    width: 569px;
+}
+
+@media all and (max-width: 1439px) {
+    .request {
+        width: auto;
+    }
+}

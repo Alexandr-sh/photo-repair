@@ -1,0 +1,13 @@
+.warranty__card-text {
+  margin: 0;
+  margin-top: 38px;
+  font-size: 15px;
+  line-height: 19px;
+  color: #8E8E98;
+}
+
+@media all and (max-width: 767px) {
+  .warranty__card-text {
+    margin-top: 36px;
+  }
+}
