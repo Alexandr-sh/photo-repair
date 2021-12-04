@@ -13,6 +13,7 @@
 @import "../blocks/logo/__text/logo__text.scss";
 @import "../blocks/logo/__button/logo__button.scss";
 @import "../blocks/logo/_place/logo_place_top.scss";
+@import "../blocks/logo/_place/logo_place_bottom.scss";
 
 @import "../blocks/request/request.scss";
 @import "../blocks/request/__button-logo/request__button-logo.scss";
@@ -21,6 +22,7 @@
 @import "../blocks/request/__input-container/request__input-container.scss";
 @import "../blocks/request/__input/request__input.scss";
 @import "../blocks/request/__subtitle/request__subtitle.scss";
+@import "../blocks/request/__input-container/_place/request__input-container_place_bottom.scss";
 
 @import "../blocks/photos/photos.scss";
 @import "../blocks/photos/__card/photos__card.scss";
@@ -49,3 +51,11 @@
 
 @import "../blocks/support/support.scss";
 @import "../blocks/support/__header/support__header.scss";
+@import "../blocks/support/__email-button/support__email-button.scss";
+@import "../blocks/support/__main-text/support__main-text.scss";
+
+@import "../blocks/footer/footer.scss";
+@import "../blocks/footer/__label/footer__label.scss";
+
+@media all and (max-width: 1439px) {
+}

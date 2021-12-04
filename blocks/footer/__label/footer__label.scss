@@ -1,0 +1,22 @@
+.footer__label {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 12px;
+  line-height: 18px;
+  color: #47474c;
+}
+
+@media all and (max-width: 1439px) {
+  .footer__label {
+    position: relative;
+    margin-top: 60px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer__label {
+    margin-top: 40px;
+  }
+}

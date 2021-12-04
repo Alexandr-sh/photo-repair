@@ -2,12 +2,12 @@
     display: grid;
     gap: 20px;
     grid-template-columns: 448px 1fr 730px;
-    grid-template-rows: 230px 630px;
+    grid-template-rows: 230px 552px;
 }
 
 @media all and (max-width: 1439px) {
     .photos {
-        grid-template-columns: minmax(300px, 1fr) 1fr minmax(300px, 1fr);
+        grid-template-columns: minmax(300px, 1fr) 1fr minmax(180px, 1fr);
         grid-template-rows: 230px 344px;
     }
 }

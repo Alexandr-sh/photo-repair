@@ -1,0 +1,13 @@
+.logo_place_bottom {
+  margin-bottom: 84px;
+  padding-top: 60px;
+  border-top: 2px solid #151515;
+}
+
+
+@media all and (max-width: 767px) {
+  .logo_place_bottom {
+    padding-top: 30px;
+    margin-bottom: 184px;
+  }
+}

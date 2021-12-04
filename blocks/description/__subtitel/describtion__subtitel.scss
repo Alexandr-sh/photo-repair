@@ -18,6 +18,8 @@
 
 @media all and (max-width: 767px) {
   .describtion__subtitel {
+    margin-top: 20px;
+    margin-bottom: 30px;
     font-size: $primSizeMobile * 1px;
     line-height: $primLineHeightMobile * 1px;
   }

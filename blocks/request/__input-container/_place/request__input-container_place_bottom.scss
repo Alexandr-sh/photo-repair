@@ -1,0 +1,9 @@
+.request__input-container_place_bottom {
+    width: 569px;
+}
+
+@media all and (max-width: 767px) {
+    .request__input-container_place_bottom {
+        width: 100%;
+    }
+}

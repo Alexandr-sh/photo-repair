@@ -7,3 +7,10 @@
     margin-bottom: 70px;
   }
 }
+
+@media all and (max-width: 767px) {
+  .logo_place_top {
+    margin-top: 4px;
+    margin-bottom: 60px;
+  }
+}
