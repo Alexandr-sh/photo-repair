@@ -2,9 +2,13 @@
   padding: 40px;
   display: flex;
   flex-direction: column;
-  background: #1c1c1e;
+  background: $cardColor;
   border-radius: 16px;
   margin-left: 20px;
+}
+
+.cards__card:hover {
+  background: $cardSelColor;
 }
 
 .cards__card:first-child {

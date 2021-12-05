@@ -218,10 +218,23 @@
   }
 }
 .request__input {
+  padding-left: 16px;
   width: 100%;
   background: rgba(142, 142, 152, 0.2);
   border-radius: 8px 0px 0px 8px;
   border: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.request__input:hover {
+  background: rgba(142, 142, 152, 0.3);
+}
+
+.request__input:focus {
+  border: none;
+  outline: none;
 }
 
 .request__subtitle {
@@ -407,9 +420,13 @@
   padding: 40px;
   display: flex;
   flex-direction: column;
-  background: #1c1c1e;
+  background: #1C1C1E;
   border-radius: 16px;
   margin-left: 20px;
+}
+
+.cards__card:hover {
+  background: #232327;
 }
 
 .cards__card:first-child {
@@ -512,6 +529,10 @@
   border-radius: 10px;
 }
 
+.warranty__card:hover {
+  background: #232327;
+}
+
 @media all and (max-width: 767px) {
   .warranty__card {
     min-height: 148px;
@@ -591,6 +612,11 @@
   background-color: #47474c;
   border: none;
   letter-spacing: 0.375px;
+  text-decoration: none;
+}
+
+.support__email-button:hover {
+  opacity: 0.8;
 }
 
 @media all and (max-width: 1439px) {

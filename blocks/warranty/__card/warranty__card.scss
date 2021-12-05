@@ -1,8 +1,12 @@
 .warranty__card {
     box-sizing: border-box;
     padding: 20px;
-    background-color: #1C1C1E;
+    background-color: $cardColor;
     border-radius: 10px;
+}
+
+.warranty__card:hover {
+    background: $cardSelColor;
 }
 
 @media all and (max-width: 767px) {
