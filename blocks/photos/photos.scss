@@ -5,14 +5,14 @@
     grid-template-rows: 230px 552px;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
     .photos {
         grid-template-columns: minmax(300px, 1fr) 1fr minmax(180px, 1fr);
         grid-template-rows: 230px 344px;
     }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
     .photos {
         display: flex;
         flex-direction: column;

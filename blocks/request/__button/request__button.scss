@@ -13,7 +13,7 @@
   letter-spacing: $PrimLetterSpacing * 1px;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .request__button {
     min-width: 51px;
   }

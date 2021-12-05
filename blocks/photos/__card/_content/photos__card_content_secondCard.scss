@@ -4,14 +4,14 @@
   grid-column-end: 4;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
   .photos__card_content_secondCard {
     grid-column-start: 3;
     grid-column-end: 4;
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .photos__card_content_secondCard {
     height: 67px;
   }

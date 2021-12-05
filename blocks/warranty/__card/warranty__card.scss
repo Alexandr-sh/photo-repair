@@ -9,7 +9,7 @@
     background: $cardSelColor;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
     .warranty__card {
         min-height: 148px;
     }

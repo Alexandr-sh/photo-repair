@@ -2,7 +2,7 @@
     display: flex;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
     .cards {
         flex-direction: column;
     }

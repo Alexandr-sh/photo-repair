@@ -4,7 +4,7 @@
   line-height: $logoLineHeightDesk * 1px;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .logo__text {
     font-size: $logoTextSizeMobile * 1px;
     line-height: $logoLineHeightMobile * 1px;

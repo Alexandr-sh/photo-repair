@@ -5,13 +5,13 @@
     flex-direction: column;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
     .footer {
         margin-top: 90px;
     }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
     .footer {
         margin-top: 140px;
     }

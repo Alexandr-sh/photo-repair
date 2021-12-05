@@ -13,7 +13,7 @@
   font-weight: normal;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .logo__button {
     margin-left: 16px;
     font-size: 12px;

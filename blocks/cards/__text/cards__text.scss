@@ -6,7 +6,7 @@
   color: #8e8e98;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .cards__text {
     margin-top: 28px;
     font-size: 12px;

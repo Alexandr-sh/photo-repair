@@ -5,7 +5,7 @@
     border-radius: $borderRadL * 1px;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
     .photos__card {
         border-radius: $borderRadS * 1px;
     }

@@ -4,7 +4,7 @@
   grid-column-end: 4;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
   .photos__card_content_fourthCard {
     height: 344px;
     grid-column-start: 2;
@@ -12,7 +12,7 @@
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .photos__card_content_fourthCard {
     height: 211px;
   }

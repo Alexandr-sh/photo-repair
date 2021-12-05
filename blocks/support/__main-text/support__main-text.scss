@@ -6,7 +6,7 @@
   line-height: 40px;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
   .support__main-text {
     margin-top: 40px;
     font-size: 20px;
@@ -14,7 +14,7 @@
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .support__main-text {
     margin-top: 30px;
     font-size: 12px;

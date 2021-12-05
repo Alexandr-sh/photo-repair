@@ -7,14 +7,14 @@
   justify-self:right;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
   .footer__label {
     position: relative;
     margin-top: 60px;
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .footer__label {
     margin-top: 40px;
   }

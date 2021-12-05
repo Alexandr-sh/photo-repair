@@ -6,7 +6,7 @@
   line-height: 18px;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
   .request__subtitle {
     margin-top: 10px;
   }

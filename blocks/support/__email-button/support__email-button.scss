@@ -21,7 +21,7 @@
   opacity: 0.8;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
   .support__email-button {
     margin-top: 80px;
     width: 100%;
@@ -30,7 +30,7 @@
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .support__email-button {
     margin-top: 50px;
   }

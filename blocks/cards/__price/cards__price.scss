@@ -6,7 +6,7 @@
   color: #25e197;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .cards__price {
     margin-top: 100px;
   }

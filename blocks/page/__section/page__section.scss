@@ -9,14 +9,14 @@
     padding-right: $sectionPaddingDesktop * 1px;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
     .page__section {
         padding-left: $sectionPaddingTablet * 1px;
         padding-right: $sectionPaddingTablet * 1px;
     }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
     .page__section {
         padding-top: $sectionMarginMobile * 1px;
         padding-bottom: $sectionMarginMobile * 1px;

@@ -8,7 +8,7 @@
   font-weight: normal;
 }
 
-@media all and (max-width: 1439px) {
+@media all and (max-width: $tabletSize) {
   .header__subheading {
     margin-top: 0;
     margin-bottom: 470px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
   .header__subheading {
     margin-top: 10px;
     margin-bottom: 260px;

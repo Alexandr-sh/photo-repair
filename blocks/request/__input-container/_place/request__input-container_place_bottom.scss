@@ -2,7 +2,7 @@
     width: 569px;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: $mobileSize) {
     .request__input-container_place_bottom {
         width: 100%;
     }
