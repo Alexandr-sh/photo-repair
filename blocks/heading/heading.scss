@@ -1,0 +1,20 @@
+.heading {
+  color: $primTextColor;
+  margin: 0;
+  font-size: $primSizeDesktop * 1px;
+  line-height: $primLineHeightDesktop * 1px;
+}
+
+@media all and (max-width: $tabletSize) {
+  .heading {
+    font-size: $primSizeTablet * 1px;
+    line-height: $primLineHeightTablet * 1px;
+  }
+}
+
+@media all and (max-width: $mobileSize) {
+  .heading {
+    font-size: $primSizeMobile * 1px;
+    line-height: $primLineHeightMobile * 1px;
+  }
+}

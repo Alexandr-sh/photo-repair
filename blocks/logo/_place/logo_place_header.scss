@@ -1,0 +1,16 @@
+.logo_place_header {
+  margin-bottom: 60px;
+}
+
+@media all and (max-width: $tabletSize) {
+  .logo_place_header {
+    margin-bottom: 70px;
+  }
+}
+
+@media all and (max-width: $mobileSize) {
+  .logo_place_header {
+    margin-top: 4px;
+    margin-bottom: 60px;
+  }
+}

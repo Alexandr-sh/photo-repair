@@ -1,0 +1,22 @@
+.logo__button {
+  padding: 4px 8px;
+  margin-left: 28px;
+  border: none;
+  background-color: #25e197;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #000000;
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media all and (max-width: $mobileSize) {
+  .logo__button {
+    margin-left: 16px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

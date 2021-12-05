@@ -1,0 +1,23 @@
+.support__main-text {
+  margin: 0;
+  margin-top: 50px;
+  color: $secTextColor;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@media all and (max-width: $tabletSize) {
+  .support__main-text {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media all and (max-width: $mobileSize) {
+  .support__main-text {
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

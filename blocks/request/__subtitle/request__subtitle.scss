@@ -1,0 +1,13 @@
+.request__subtitle {
+  margin: 0;
+  margin-top: 12px;
+  color: #47474c;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@media all and (max-width: $tabletSize) {
+  .request__subtitle {
+    margin-top: 10px;
+  }
+}

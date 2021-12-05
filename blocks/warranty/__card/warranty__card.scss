@@ -1,0 +1,16 @@
+.warranty__card {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: $cardColor;
+    border-radius: 10px;
+}
+
+.warranty__card:hover {
+    background: $cardSelColor;
+}
+
+@media all and (max-width: $mobileSize) {
+    .warranty__card {
+        min-height: 148px;
+    }
+}

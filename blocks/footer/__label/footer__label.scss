@@ -1,0 +1,21 @@
+.footer__label {
+  margin: 0;
+  margin-left: auto;
+  font-size: 12px;
+  line-height: 18px;
+  color: #47474c;
+  justify-self:right;
+}
+
+@media all and (max-width: $tabletSize) {
+  .footer__label {
+    position: relative;
+    margin-top: 60px;
+  }
+}
+
+@media all and (max-width: $mobileSize) {
+  .footer__label {
+    margin-top: 40px;
+  }
+}

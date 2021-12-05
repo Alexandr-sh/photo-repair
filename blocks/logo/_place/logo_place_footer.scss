@@ -1,0 +1,13 @@
+.logo_place_footer {
+  margin-bottom: 84px;
+  padding-top: 60px;
+  border-top: 2px solid #151515;
+}
+
+
+@media all and (max-width: $mobileSize) {
+  .logo_place_footer {
+    padding-top: 30px;
+    margin-bottom: 184px;
+  }
+}

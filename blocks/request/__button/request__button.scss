@@ -1,0 +1,20 @@
+.request__button {
+  margin: 0;
+  padding: 13px 16px;
+  display: flex;
+  min-width: 221px;
+  background: #47474c;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: $PrimLetterSpacing * 1px;
+}
+
+@media all and (max-width: $mobileSize) {
+  .request__button {
+    min-width: 51px;
+  }
+}

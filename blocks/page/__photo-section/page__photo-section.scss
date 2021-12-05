@@ -1,0 +1,28 @@
+.page__photo-section {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: $sectionMarginDesktop * 1px;
+  margin-bottom: $sectionMarginDesktop * 1px;
+  padding: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media all and (max-width: $tabletSize) {
+    .page__photo-section {
+        margin-top: 0;
+        margin-bottom: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media all and (max-width: $mobileSize) {
+    .page__photo-section {
+        margin-top: 20px;
+        margin-bottom: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

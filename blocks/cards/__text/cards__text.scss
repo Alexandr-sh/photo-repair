@@ -1,0 +1,15 @@
+.cards__text {
+  margin: 0;
+  margin-top: 40px;
+  font-size: 32px;
+  line-height: 40px;
+  color: #8e8e98;
+}
+
+@media all and (max-width: $mobileSize) {
+  .cards__text {
+    margin-top: 28px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

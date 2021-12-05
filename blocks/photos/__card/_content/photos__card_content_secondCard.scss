@@ -1,0 +1,19 @@
+.photos__card_content_secondCard {
+  background-color: #ffd233;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+@media all and (max-width: $tabletSize) {
+  .photos__card_content_secondCard {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+}
+
+@media all and (max-width: $mobileSize) {
+  .photos__card_content_secondCard {
+    height: 67px;
+  }
+}
+

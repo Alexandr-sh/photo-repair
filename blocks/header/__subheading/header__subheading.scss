@@ -1,0 +1,27 @@
+.header__subheading {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 230px;
+  font-size: $h2SizeDesktop * 1px;
+  line-height: $h2LineHDesktop * 1px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media all and (max-width: $tabletSize) {
+  .header__subheading {
+    margin-top: 0;
+    margin-bottom: 470px;
+    font-size: $h2SizeTablet * 1px;
+    line-height: $h2LineHTablet * 1px;
+  }
+}
+
+@media all and (max-width: $mobileSize) {
+  .header__subheading {
+    margin-top: 10px;
+    margin-bottom: 260px;
+    font-size: $h2SizeMobile * 1px;
+    line-height: $h2LineHMobile * 1px;
+  }
+}

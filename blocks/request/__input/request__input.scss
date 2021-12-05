@@ -1,0 +1,20 @@
+.request__input {
+  padding-left: 16px;
+  width: 100%;
+  background: $formInputColor;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+
+  font-size: 14px;
+  line-height: 24px;
+  color: $primTextColor;
+}
+
+.request__input:hover {
+  background: $formInputSelColor;
+}
+
+.request__input:focus {
+  border: none;
+  outline: none;
+}

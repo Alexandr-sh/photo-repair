@@ -1,0 +1,18 @@
+.footer {
+    position: relative;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (max-width: $tabletSize) {
+    .footer {
+        margin-top: 90px;
+    }
+}
+
+@media all and (max-width: $mobileSize) {
+    .footer {
+        margin-top: 140px;
+    }
+}

@@ -1,0 +1,9 @@
+.cards {
+    display: flex;
+}
+
+@media all and (max-width: $tabletSize) {
+    .cards {
+        flex-direction: column;
+    }
+}

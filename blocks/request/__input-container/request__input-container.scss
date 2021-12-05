@@ -1,0 +1,10 @@
+.request__input-container {
+    display: flex;
+    width: 569px;
+}
+
+@media all and (max-width: $tabletSize) {
+    .request__input-container {
+        width: auto;
+    }
+}

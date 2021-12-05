@@ -1,0 +1,19 @@
+.photos__card_content_fourthCard {
+  background-image: url("../images/Card4.jpg");
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+@media all and (max-width: $tabletSize) {
+  .photos__card_content_fourthCard {
+    height: 344px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+}
+
+@media all and (max-width: $mobileSize) {
+  .photos__card_content_fourthCard {
+    height: 211px;
+  }
+}

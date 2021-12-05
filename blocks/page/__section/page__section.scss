@@ -1,0 +1,27 @@
+.page__section {
+    padding: 0;
+    box-sizing:border-box;
+    max-width: 1440px;
+    margin: auto;
+    padding-top: $sectionMarginDesktop * 1px;
+    padding-bottom: $sectionMarginDesktop * 1px;
+    padding-left: $sectionPaddingDesktop * 1px;
+    padding-right: $sectionPaddingDesktop * 1px;
+}
+
+@media all and (max-width: $tabletSize) {
+    .page__section {
+        padding-left: $sectionPaddingTablet * 1px;
+        padding-right: $sectionPaddingTablet * 1px;
+    }
+}
+
+@media all and (max-width: $mobileSize) {
+    .page__section {
+        padding-top: $sectionMarginMobile * 1px;
+        padding-bottom: $sectionMarginMobile * 1px;
+        padding-left: $sectionPaddingMobile * 1px;
+        padding-right: $sectionPaddingMobile * 1px;
+    }
+}
+

@@ -1,0 +1,37 @@
+.support__email-button {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: normal;
+  max-width: 306px;
+  margin: 0;
+  margin-top: 90px;
+  padding: 13px 30px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: $primTextColor;
+  border-radius: 8px;
+  background-color: #47474c;
+  border: none;
+  letter-spacing: $PrimLetterSpacing * 1px;
+  text-decoration: none;
+}
+
+.support__email-button:hover {
+  opacity: 0.8;
+}
+
+@media all and (max-width: $tabletSize) {
+  .support__email-button {
+    margin-top: 80px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media all and (max-width: $mobileSize) {
+  .support__email-button {
+    margin-top: 50px;
+  }
+}
