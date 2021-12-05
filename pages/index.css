@@ -201,7 +201,6 @@
 @media all and (max-width: 767px) {
   .request__button-logo {
     margin: 20px;
-    width: 11px;
     height: 10px;
   }
 }
@@ -210,6 +209,7 @@
   color: #ffffff;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.375px;
 }
 
 @media all and (max-width: 767px) {
@@ -218,10 +218,17 @@
   }
 }
 .request__button {
+  margin: 0;
+  padding: 13px 16px;
   display: flex;
   min-width: 221px;
   background: #47474c;
   border-radius: 0px 8px 8px 0px;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.375px;
 }
 
 @media all and (max-width: 767px) {
@@ -293,7 +300,7 @@
 }
 
 .photos__card_content_card1 {
-  background-image: url("../../../../images/Card1.jpg");
+  background-image: url("../images/Card1.jpg");
 }
 
 @media all and (max-width: 1439px) {
@@ -342,7 +349,7 @@
   }
 }
 .photos__card_content_card4 {
-  background-image: url("../../../../images/Card4.jpg");
+  background-image: url("../images/Card4.jpg");
   grid-column-start: 3;
   grid-column-end: 4;
 }
@@ -604,6 +611,7 @@
   border-radius: 8px;
   background-color: #47474c;
   border: none;
+  letter-spacing: 0.375px;
 }
 
 @media all and (max-width: 1439px) {
