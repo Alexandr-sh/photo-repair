@@ -1,4 +1,12 @@
 .photos__card {
-    border-radius: 10px;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: $borderRadL * 1px;
+}
+
+@media all and (max-width: 767px) {
+    .photos__card {
+        border-radius: $borderRadS * 1px;
+    }
 }

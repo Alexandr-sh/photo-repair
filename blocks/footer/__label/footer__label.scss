@@ -1,11 +1,10 @@
 .footer__label {
   margin: 0;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  margin-left: auto;
   font-size: 12px;
   line-height: 18px;
   color: #47474c;
+  justify-self:right;
 }
 
 @media all and (max-width: 1439px) {
