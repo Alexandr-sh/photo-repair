@@ -172,29 +172,29 @@
     line-height: 12px;
   }
 }
-.logo_place_top {
+.logo_place_header {
   margin-bottom: 60px;
 }
 
 @media all and (max-width: 1439px) {
-  .logo_place_top {
+  .logo_place_header {
     margin-bottom: 70px;
   }
 }
 @media all and (max-width: 767px) {
-  .logo_place_top {
+  .logo_place_header {
     margin-top: 4px;
     margin-bottom: 60px;
   }
 }
-.logo_place_bottom {
+.logo_place_footer {
   margin-bottom: 84px;
   padding-top: 60px;
   border-top: 2px solid #151515;
 }
 
 @media all and (max-width: 767px) {
-  .logo_place_bottom {
+  .logo_place_footer {
     padding-top: 30px;
     margin-bottom: 184px;
   }
