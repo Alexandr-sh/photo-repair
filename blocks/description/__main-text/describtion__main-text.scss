@@ -1,5 +1,6 @@
 .describtion__main-text {
     margin: 0;
+    margin-bottom: $sectionMarginDesktop * 1px;
     color: $secTextColor;
     font-size: $primSizeDesktop * 1px;
     line-height: $primLineHeightDesktop * 1px;
@@ -14,6 +15,7 @@
 
 @media all and (max-width: 767px) {
     .describtion__main-text {
+        margin-bottom: $sectionMarginMobile * 1px;
         font-size: $primSizeMobile * 1px;
         line-height: $primLineHeightMobile * 1px;
     }

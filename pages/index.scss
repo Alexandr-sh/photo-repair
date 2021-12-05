@@ -1,6 +1,8 @@
 @import "../variables/variables.scss";
 @import "../vendor/fonts.scss";
 
+@import "../blocks/heading/heading.scss";
+
 @import "../blocks/page/page.scss";
 @import "../blocks/page/__section/page__section.scss";
 @import "../blocks/page/__photo-section/page__photo-section.scss";
@@ -31,7 +33,6 @@
 
 @import "../blocks/description/description.scss";
 @import "../blocks/description/__main-text/describtion__main-text.scss";
-@import "../blocks/description/__subtitel/describtion__subtitel.scss";
 
 @import "../blocks/cards/cards.scss";
 @import "../blocks/cards/__card/cards__card.scss";
@@ -41,14 +42,12 @@
 @import "../blocks/cards/__text/cards__text.scss";
 
 @import "../blocks/warranty/warranty.scss";
-@import "../blocks/warranty/__header/warranty__header.scss";
 @import "../blocks/warranty/__card/warranty__card.scss";
 @import "../blocks/warranty/__card-header/warranty__card-header.scss";
 @import "../blocks/warranty/__card-text/warranty__card-text.scss";
 @import "../blocks/warranty/__cards/warranty__cards.scss";
 
 @import "../blocks/support/support.scss";
-@import "../blocks/support/__header/support__header.scss";
 @import "../blocks/support/__email-button/support__email-button.scss";
 @import "../blocks/support/__main-text/support__main-text.scss";
 

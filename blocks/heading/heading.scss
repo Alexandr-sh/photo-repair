@@ -1,25 +1,19 @@
-.describtion__subtitel {
+.heading {
+  color: $primTextColor;
   margin: 0;
-  margin-top: 60px;
   font-size: $primSizeDesktop * 1px;
   line-height: $primLineHeightDesktop * 1px;
 }
 
-.describtion__subtitel::after {
-  content: "👈";
-}
-
 @media all and (max-width: 1439px) {
-  .describtion__subtitel {
+  .heading {
     font-size: $primSizeTablet * 1px;
     line-height: $primLineHeightTablet * 1px;
   }
 }
 
 @media all and (max-width: 767px) {
-  .describtion__subtitel {
-    margin-top: 20px;
-    margin-bottom: 30px;
+  .heading {
     font-size: $primSizeMobile * 1px;
     line-height: $primLineHeightMobile * 1px;
   }

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   src: url("../vendor/Roboto.woff2") format("woff2"), url("../vendor/Roboto.woff") format("woff");
   font-family: "Roboto";
@@ -8,6 +7,25 @@
   src: url("../vendor/Robotomedium.woff2") format("woff2"), url("../vendor/Robotomedium.woff") format("woff");
   font-family: "Roboto";
   font-weight: 500;
+}
+.heading {
+  color: #ffffff;
+  margin: 0;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@media all and (max-width: 1439px) {
+  .heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media all and (max-width: 767px) {
+  .heading {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 .page {
   margin: 0;
@@ -365,6 +383,7 @@
 
 .describtion__main-text {
   margin: 0;
+  margin-bottom: 60px;
   color: #8e8e98;
   font-size: 32px;
   line-height: 40px;
@@ -378,31 +397,7 @@
 }
 @media all and (max-width: 767px) {
   .describtion__main-text {
-    font-size: 12px;
-    line-height: 18px;
-  }
-}
-.describtion__subtitel {
-  margin: 0;
-  margin-top: 60px;
-  font-size: 32px;
-  line-height: 40px;
-}
-
-.describtion__subtitel::after {
-  content: "👈";
-}
-
-@media all and (max-width: 1439px) {
-  .describtion__subtitel {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media all and (max-width: 767px) {
-  .describtion__subtitel {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 12px;
     line-height: 18px;
   }
@@ -501,27 +496,6 @@
   flex-direction: column;
 }
 
-.warranty__header {
-  font-style: normal;
-  font-weight: normal;
-  margin: 0;
-  font-size: 32px;
-  line-height: 40px;
-}
-
-@media all and (max-width: 1439px) {
-  .warranty__header {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media all and (max-width: 767px) {
-  .warranty__header {
-    margin-top: 30px;
-    font-size: 12px;
-    line-height: 18px;
-  }
-}
 .warranty__card {
   box-sizing: border-box;
   padding: 20px;
@@ -577,25 +551,6 @@
   flex-direction: column;
 }
 
-.support__header {
-  margin: 0;
-  font-size: 32px;
-  line-height: 40px;
-}
-
-@media all and (max-width: 1439px) {
-  .support__header {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media all and (max-width: 767px) {
-  .support__header {
-    margin-top: 30px;
-    font-size: 12px;
-    line-height: 18px;
-  }
-}
 .support__email-button {
   font-family: Roboto, Arial, sans-serif;
   font-style: normal;
