@@ -1,16 +1,16 @@
-.photos__card_content_card1 {
+.photos__card_content_firstCard {
   background-size: cover;
 }
 
 @media all and (max-width: 1439px) {
-  .photos__card_content_card1 {
+  .photos__card_content_firstCard {
     grid-column-start: 1;
     grid-column-end: 3;
   }
 }
 
 @media all and (max-width: 767px) {
-  .photos__card_content_card1 {
+  .photos__card_content_firstCard {
     height: 142px;
   }
 }

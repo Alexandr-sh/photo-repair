@@ -1,11 +1,11 @@
-.photos__card_content_card4 {
+.photos__card_content_fourthCard {
   background-image: url("../images/Card4.jpg");
   grid-column-start: 3;
   grid-column-end: 4;
 }
 
 @media all and (max-width: 1439px) {
-  .photos__card_content_card4 {
+  .photos__card_content_fourthCard {
     height: 344px;
     grid-column-start: 2;
     grid-column-end: 4;
@@ -13,7 +13,7 @@
 }
 
 @media all and (max-width: 767px) {
-  .photos__card_content_card4 {
+  .photos__card_content_fourthCard {
     height: 211px;
   }
 }

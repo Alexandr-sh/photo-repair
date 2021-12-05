@@ -1,18 +1,18 @@
-.photos__card_content_card2 {
+.photos__card_content_secondCard {
   background-color: #ffd233;
   grid-column-start: 2;
   grid-column-end: 4;
 }
 
 @media all and (max-width: 1439px) {
-  .photos__card_content_card2 {
+  .photos__card_content_secondCard {
     grid-column-start: 3;
     grid-column-end: 4;
   }
 }
 
 @media all and (max-width: 767px) {
-  .photos__card_content_card2 {
+  .photos__card_content_secondCard {
     height: 67px;
   }
 }
